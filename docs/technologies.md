@@ -7,12 +7,12 @@
   - Android
 
 notebook/ <br>
-  pageId/ <br>
-    assets/ <br>
-      img/ <br>
-      files/ <br>
-    page.xml <br>
-    sketch.svg <br>
+	pageId/ <br>
+		assets/ <br>
+			img/ <br>
+			files/ <br>
+		page.xml <br>
+		sketch.svg <br>
     
 __example/1/page.xml__:
 ```
