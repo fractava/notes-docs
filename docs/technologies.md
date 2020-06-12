@@ -1,5 +1,5 @@
 - Electron
-- [NativeScript](https://nativescript.org/) (?)
+- [NativeScript](https://nativescript.org/)
 - no framework
 - supported plattforms:
   - Linux
