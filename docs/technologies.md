@@ -26,7 +26,6 @@ __example/1/page.xml__:
 	<currentZIndex></currentZIndex>
 	<background src="preset:lines"></background>
 	<pageLayout>A4 Landscape/Letter Portrait/infinite</pageLayout>
-	...
 </head>
 <body>
 	<image x="" y="" src="image.jpg" z-index="1">
