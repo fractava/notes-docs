@@ -6,6 +6,7 @@
   - Windows
   - Android
 
+```
 notebook/ <br>
 	pageId/ <br>
 		assets/ <br>
@@ -13,7 +14,8 @@ notebook/ <br>
 			files/ <br>
 		page.xml <br>
 		sketch.svg <br>
-    
+```    
+
 __example/1/page.xml__:
 ```
 <xml>
