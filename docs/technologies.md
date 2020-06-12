@@ -7,11 +7,11 @@
   - Android
 
 ```
-notebook/ <br>
-	pageId/ <br>
-		assets/ <br>
-			img/ <br>
-			files/ <br>
+notebook/
+	pageId/
+		assets/
+			img/
+			files/
 		page.xml <br>
 		sketch.svg <br>
 ```    
