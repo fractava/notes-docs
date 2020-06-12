@@ -6,13 +6,13 @@
   - Windows
   - Android
 
-notebook/
-  pageId/
-    assets/
-      img/
-      files/
-    page.xml
-    sketch.svg
+notebook/ <br>
+  pageId/ <br>
+    assets/ <br>
+      img/ <br>
+      files/ <br>
+    page.xml <br>
+    sketch.svg <br>
     
 __example/1/page.xml__:
 ```
