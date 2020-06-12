@@ -1,1 +1,6 @@
 - Electron
+- [NativeScript](https://nativescript.org/) (?)
+- supported plattforms:
+  - Linux
+  - Windows
+  - Android (?)
