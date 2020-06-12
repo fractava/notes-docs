@@ -12,8 +12,8 @@ notebook/
 		assets/
 			img/
 			files/
-		page.xml <br>
-		sketch.svg <br>
+		page.xml
+		sketch.svg
 ```    
 
 __example/1/page.xml__:
