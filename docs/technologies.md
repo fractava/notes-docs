@@ -1,6 +1,6 @@
 - Electron
 - [NativeScript](https://nativescript.org/)
-- no framework
+- Vue.js
 - supported plattforms:
   - Linux
   - Windows
