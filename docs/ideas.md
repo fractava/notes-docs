@@ -20,5 +20,5 @@
   - mathematic equations (*graph plotting*)
   - embedding files
   - cloud synchronisation (webdav and fractava)
-  - dark mode
+  - dark mode / themes
   - title on page top
