@@ -1,6 +1,7 @@
 - Electron
 - [NativeScript](https://nativescript.org/)
 - Vue.js
+- Vuex
 - supported plattforms:
   - Linux
   - Windows
@@ -12,24 +13,79 @@ notebook/
 		assets/
 			img/
 			files/
-		page.xml
-		sketch.svg
+		page.json
 ```    
 
-__example/1/page.xml__:
+__example/1/page.json__:
 ```
-<xml>
-<head>
-	<id>1</id>
-	<title></title>
-	<authors></authors>
-	<currentZIndex></currentZIndex>
-	<background src="preset:lines"></background>
-	<pageLayout>A4 Landscape/Letter Portrait/infinite</pageLayout>
-</head>
-<body>
-	<image x="" y="" src="image.jpg" z-index="1">
-	<text x="" y="" content="# Markdown" z-index="2">
-	<form x="" y="" type="circle" z-index="3">
-</body>
+{
+	title: "Test",
+	authors: ["Test", "Test 2"],
+	background: "preset:lines",
+	pageLayout: {
+		size: "A4", /* or "letter" or "infinite" */,
+		rotation: "landscape" /* or "portrait"; false if size == "infinite",
+	},
+	scrollOffsetX: 0,
+	scrollOffsetY: 0,
+	scale: 1,
+	objects: {
+		sketches: [
+			{
+				coordinates: [
+					{
+						x: 10,
+						y: 15,
+						width: 1,34,
+					},
+					...
+				],
+				color: "#000000",
+			},
+		],
+		textBoxes: [
+			{
+				position: {
+					x: 50,
+					y: 50,
+					width: 500,
+					height: 600,
+				},
+				content: "This is a Test",
+			},
+		],
+		forms: [
+			{
+				position: {
+					x: 100,
+					y: 150,
+					width: 100,
+					height: 100,
+				},
+				type: "circle", /* or sqare ... */
+			},
+		],
+		images: [
+			{
+				position: {
+					x: 200,
+					y: 150,
+					width: 160,
+					height: 90,
+				},
+				src: "image.png", /* relative to example/1/assets/img/ */
+			},
+		],
+		files: [
+			{
+				position: {
+					x: 200,
+					y: 500,
+				},
+				src: "test.zip", /* relative to example/1/assets/files/ */
+			},
+		],
+	},
+}
+		
 ```
