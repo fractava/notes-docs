@@ -51,7 +51,7 @@ __example/1/page.json__:
 					width: 500,
 					height: 600,
 				},
-				content: "This is a Test",
+				content: [], // Quill Delta object
 			},
 		],
 		forms: [
