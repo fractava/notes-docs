@@ -6,6 +6,7 @@
   - Linux
   - Windows
   - Android
+  - Mac OS (?)
 
 ```
 notebook/
