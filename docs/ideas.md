@@ -1,24 +1,29 @@
 - features:
-  - drawing ([pressure.js](https://pressurejs.com/))
-    - colors
-    - custom color presets
-    - stroke weight
-    - marker
-  - shapes
-    - lines
-    - squres
-    - triangles
-    - elipse
-  - text
-    - tables
-  - images
-  - snapping to background lines
-  - insert pdf
-  - infinite or fixed pages (Letter, A4)
-  - Image or PDF as Background
-  - background presets (lines, squared, music sheets)
-  - mathematic equations (*graph plotting*)
-  - embedding files
-  - cloud synchronisation (webdav and fractava)
-  - dark mode / themes
-  - title on page top
+  - [x] title on page top
+  - [ ] drawing ([pressure.js](https://pressurejs.com/))
+    - [x] colors
+    - [ ] custom color presets
+    - [x] stroke weight
+    - [ ] marker
+  - [ ] shapes
+    - [ ] lines
+    - [x] squres
+    - [ ] triangles
+    - [x] elipse
+  - [x] text
+    - [ ] tables
+  - [ ] images
+  - [ ] snapping to background lines
+  - [ ] insert pdf
+  - [ ] infinite or fixed pages (Letter, A4)
+  - [ ] Image or PDF as Background
+  - [ ] background presets
+    - [x] lines
+    - [x] grid
+    - [x] dotted grid
+    - [ ] music sheets
+  - [x] mathematic equations
+    - [ ] graph plotting
+  - [ ] embedding files
+  - [ ] cloud synchronisation (webdav and fractava)
+  - [ ] dark mode / themes
