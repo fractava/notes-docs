@@ -2,8 +2,9 @@
   - [x] title on page top
   - [ ] drawing ([pressure.js](https://pressurejs.com/))
     - [x] colors
-    - [ ] custom color presets
+    - [x] custom color presets
     - [x] stroke weight
+    - [ ] eraser
     - [ ] marker
   - [ ] shapes
     - [ ] lines
@@ -15,7 +16,7 @@
   - [ ] images
   - [ ] snapping to background lines
   - [ ] insert pdf
-  - [ ] infinite or fixed pages (Letter, A4)
+  - [x] infinite or fixed pages (Letter, A4)
   - [ ] Image or PDF as Background
   - [ ] background presets
     - [x] lines
