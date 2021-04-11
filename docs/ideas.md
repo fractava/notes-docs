@@ -14,7 +14,7 @@
   - [x] text
     - [ ] tables
   - [ ] images
-  - [ ] snapping to background lines
+  - [x] snapping to background lines
   - [ ] insert pdf
   - [x] infinite or fixed pages (Letter, A4)
   - [ ] Image or PDF as Background
